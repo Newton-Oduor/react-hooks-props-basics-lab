@@ -1,10 +1,10 @@
 import React from "react";
 
-function Home({ username, city }) {
+function Home({ name, city, color }) {
   return (
     <div id="home">
-      <h1 style={{ color: user.color }}>
-        {username} is a Web Developer from {city}
+      <h1 style={{ color: color }}>
+        {name} is a Web Developer from {city}
       </h1>
     </div>
   );

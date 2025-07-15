@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
 import React from "react";
-import Links from "/.Links"
+import Links from "./Links"
 
 function About({bio, github, linkedin}) {
   return (
